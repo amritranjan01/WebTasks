@@ -1,0 +1,8 @@
+<select id="states">
+        <option id="Karnataka" value="karnatak">Karnataka</option>
+        <option id="Kerala" value="keral">Kerala</option>
+        <option id="TN" value="TN">TN</option>
+        <option id="MH" value="MH">MH</option>
+        <option id="Odisha" value="Odisha">Odisha</option>
+        <option id="West Bengal" value="West Bengal">West Bengal</option>
+      </select>

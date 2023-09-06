@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to html </title>
+</head>
+<body>
+    <h1>Welcome to my webpage
+        
+    </h1>
+    <p>In publishing and graphic design, Lorem ipsum (/ˌlɔː.rəm ˈɪp.səm/) is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before final copy is available. It is also used to temporarily replace text in a process called greeking, which allows designers to consider the form of a webpage or publication, without the meaning of the text influencing the design.</p>
+    <h2>Table start here</h2>
+    <!-- adding bodder -->
+    <!-- boder is attribute extra information that provides to develop new thing -->
+    <table border="1">
+        <tr>
+            <!-- <th>Name</td>
+            <th>ID</th> -->
+            <td><h3>Name</h3></td>
+            <td><h3>ID</h3></td>
+            <td><h3>Course</h3></td>
+
+        </tr>
+        <tr>
+            <td>Amrit</td>
+            <td>3</td>
+            <td>CS</td>
+        </tr>
+        <tr>
+            <td>Anika</td>
+            <td>4</td>
+            
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>1</td>
+        </tr>
+    </table>
+    <img src="flowers-276014_640.jpg" alt="image here">
+
+    <!-- link tags in it -->
+    <!--  a stands for anchor tags -->
+    <!--  link another page to the tag that is present -->
+    <!-- href stands for refrence link first a then href link should given  -->
+    <h1>Link to page</h1>
+    <a href="https://en.wikipedia.org/wiki/India" target="_blank">Know More</a>
+    <!--  blank means link opens in new tab -->
+    <!-- parent tab in target open in same tab  -->
+    <!-- in a anchor tage with href and then target would specify where should we open the link  -->
+    <!-- in blank only new tab is opened but in parent ,self and top it will open`same tab  -->
+    <!-- but if we choose parent it choose f2 -->
+    <!--  in self it open in f3 -->
+    <!-- in top it chooses top most layer of frame which is f0  -->
+    <!-- only frames is diifrent but frames is diffrent -->
+    <!-- ordered lists -->
+    <h2>States of India</h2>
+    <ol>
+        <li>Arunachal pardesh</li>
+        <li>Bihar</li>
+        <li>Assam</li>
+        <li>chattisgarh</li>
+        <li>tamil nadu</li>
+
+    </ol>
+
+
+    <!-- unorder list is ul and ol is ordered list -->
+     <!--in unordered list it present points in bullet point   -->
+    <h2>union territory of india</h2>
+     <ul>
+        <li>ladakh</li>
+        <li>Jammu and Kashmir</li>
+        <li>Delhi</li> 
+        </ul>
+
+    <!-- we can change 1 to A,a,I anything by typecasting the type in ordered list or unordered list also by only doing ul and give type = -->
+        <h2>States of India</h2>
+    <ol type="I">
+        <li>Arunachal pardesh</li>
+        <li>Bihar</li>
+        <li>Assam</li>
+        <li>chattisgarh</li>
+        <li>tamil nadu</li>
+
+    </ol>
+    <!-- hr tag gives the horizontal line if we need to break in the some topic we have to diffrengtiate
+     -->
+
+     <hr>
+    <!--  list inside a list we have to do -->
+    <h2>list inside in the list bullet point so we have to use ul</h2>
+    <ul>
+        <li>cofee</li>
+        <li>Tea</li>
+        <ul>
+            <li>Green Tea</li>
+            <li>Black Tea</li>
+        </ul>
+        <li>Milk</li>
+    </ul> 
+    
+    <!-- type is used in ol -->
+    <!--  do a research  on dl tag or defination tag some copy notes dl tags-->
+    <!-- Forms tags -->
+    <h1>Html forms</h1>
+    <!-- here below form tag which is wrriten is called sementric element -->
+    <form action="">
+        <!--  label created so that we take out the name -->
+        <!--  to capture the data you should give id and id name is stored in for blank spaces -->
+        <!--  id given so that we have to store the data in database of computer -->
+    <!-- to capture the data we need to get work on javascript -->
+    <label for="first name">First name</label>
+    <input type="text" id="first name" placeholder="First name">
+    <br><br>
+    <label for="Last name">Last Name</label>
+    <input type="text" id="Last name" placeholder="last name">
+    <br><br>
+    <label for="Email">Email</label>
+    <input type="email" id="Email" placeholder="Email">
+    <br><br>
+    
+    <label for="Date">Date</label>
+    
+    <input type="date" id="Date" placeholder="Date">
+    <br><br>
+    <label for="Color">Color</label>
+    <input type="color" placeholder="color">
+    <br><br>
+    <label for="Phone">Phone No</label>
+    <input type="tel" id="Phone" placeholder=" phone no">
+    <br> <br>
+    <label for="Password">password</label>
+    <input type="password" id="Password" placeholder="Password ">
+    <br> <br>
+    <label for="Check box">Check box</label>
+    <input type="checkbox" id="Check Box" placeholder="Check Box">
+    <br> <br>
+    <label for="date_local">Date time local</label>
+    <input type="datetime-local" id="date_local" placeholder="Date time localba re">
+     <br> <br>
+     <p>Choose Gender</p>
+    <!-- this is trhe radio type input hain re  -->
+     <!--  for choosing option we have make a choosing option which is input format is radio -->
+    <!-- but we have choose only one of the following-->
+    <!--  we have to tell that all the option pointing toward single input so that name is given after id and that specify that single thing only -->
+    
+    <input type="radio" id="male" name="Gender" placeholder="male" value="male"> 
+    <label for="male">male</label>
+    <!-- <input type="radio" id="male"> -->
+    <br> <br>
+    <input type="radio" id="female" name="Gender" placeholder="female" value="female" >
+    <label for="female">female</label>
+    <!-- <input type="radio" id="female"> -->
+    <br> <br>
+    <input type="radio" id="others" name="Gender" placeholder="others" value="others">
+    <label for="others">others</label>
+    <!-- <input type="radio" id="others"> -->
+    <br> <br>
+
+    <!--  for capturing the value in the option multiple or single we have to do value in this regard so that value is captured but in name type value is automatically captured but not in this so we have to give value so that value is captured -->
+
+
+    <!--  now we have to select multiple option so we need check type in this regard -->
+    <h2>Enter the multiple correct option</h2>
+    <input type="checkbox" id="Hindi" placeholder="Hindi" name="Language" placeholder="Hindi" value="Hindi">
+    <label for="Hindi">Hindi</label>
+    <br><br>
+    <input type="checkbox" id="English" placeholder="Eng" name="Language"placeholder="English" value="English">
+    <label for="Hindi">English</label>
+    <br><br>
+    <input type="checkbox" id="tamil" placeholder="tamil" name="Language"placeholder="tamil" value="tamil">
+    <label for="Tamil">Tamil</label>
+    <br><br>
+
+    <p>Enter the range of knowledge 1 to 5</p>
+    <input type="range">
+
+    <p>Enter the states</p>
+    <label for="states">select states</label>
+    <select name="states" id="states">
+        <option id="Karnataka" value="karnataka">karnataka</option>
+        <option id="Bihar" value="Bihar">Bihar</option>
+        <option id="West Bengal" value="West Bengal">West Bengal</option>
+        <option id="Uttar pardesh" value="Uttar pardesh">Uttar pardesh</option>
+    </select>
+
+
+
+
+    <!--  if we want to first name and other is envraved in the blank it self use place holder in input type after id use place hoder and the name -->
+    </form>
+
+
+</body>
+</html>
