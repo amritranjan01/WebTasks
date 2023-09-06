@@ -1,0 +1,79 @@
+#Heading1 {
+  /* id selector */
+  color: rgba(0, 255, 255, 0.795);
+  text-align: center;
+  background-color: beige;
+  font-size: 50px;
+}
+
+img {
+  /* element selector */
+  height: 300px;
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  display: block;
+}
+
+#para1 {
+  /* element selector */
+  text-align: justify;
+  font-size: 20px;
+  color: rgba(0, 255, 255, 0.757);
+  background-color: beige;
+  line-height: 35px;
+  padding: 15px;
+  border: 1px solid red;
+  /* padding is dist b/w content and the boder */
+}
+
+#Heading2 {
+  color: rgba(0, 255, 255, 0.849);
+  margin-left: 10px;
+  /* margin is distance b/w  */
+  padding-left: 10px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+}
+#para2 {
+  color: rgb(51, 51, 233);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 10px;
+  padding: 10px;
+  border: 1px solid rgb(31, 188, 188);
+}
+.Container {
+  background-color: rgb(163, 242, 242);
+  padding: 250px;
+}
+body {
+  background-color: aliceblue;
+  padding: 25px;
+}
+#un_order1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 50px;
+}
+#img2 {
+  height: 250px;
+  margin-left: 10px;
+}
+.container2 {
+  background-color: rgb(252, 239, 219);
+  padding: 10px;
+  display: flex;
+  
+}
+/* .container2 para3{
+    text-align: center;
+} */
+
+#para3{
+    text-align: center;
+}
+
+
