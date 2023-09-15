@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task5 </title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+
+    table,
+    tr,
+    td {
+        border: solid black;
+        /* border-collapse: collapse; */
+        width: 1000px;
+        text-align: center;
+    }
+
+    table {
+        border: solid black;
+        margin-left: auto;
+        margin-right: auto;
+        /* background-color: aqua; */
+
+    }
+
+    container {
+        border: 1px solid black;
+        height: 200px;
+        position: relative;
+    }
+
+    button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+</style>
+
+<body>
+    <h1>Registration Form</h1>
+    <table>
+
+        <tr>
+            <td> <b>First Name</b></td>
+            <td>
+                <form action="">
+                    <label for="FirstName"></label>
+                    <input type="text" id="FirstName" placeholder="">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Last Name</b></td>
+            <td>
+                <form action="">
+                    <label for="LastName"></label>
+                    <input type="text" id="LastName" placeholder="">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Email</b></td>
+            <td>
+                <form action="">
+                    <label for="Email"></label>
+                    <input type="email" id="Email" placeholder="">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Password</b></td>
+            <td>
+                <form action="">
+                    <label for="password"></label>
+                    <input type="password" id="password" placeholder="">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Re Password</b></td>
+            <td>
+                <form action="">
+                    <label for="re password"></label>
+                    <input type="password" id="re password" placeholder="">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Gender</b></td>
+            <td>
+                <form action="">
+                    <input type="radio" id="male" name="Gender" placeholder="" value="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" id="female" name="Gender" placeholder="" value="female">
+                    <label for="female">Female</label>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Age</b></td>
+            <td>
+                <form action="">
+                    <label for="age"></label>
+                    <input type="number" id="age" placeholder="">
+                </form>
+            </td>
+        </tr>
+        <tr class="wi">
+            <td><b>Address</b>
+                <br><br><br>
+            </td>
+            <td>
+                <form action="">
+                    <label for="address"></label>
+                    <input type="text" id="address" placeholder="" style="width: 600px; height: 100px;">
+
+                </form>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>State</b></td>
+            <td>
+                <form action="">
+                    <label for="States"></label>
+                    <input type="text" id="States" placeholder="">
+
+                </form>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Country</b></td>
+            <td>
+                <form action="">
+                    <label for="country"></label>
+                    <select name="country" id="country">
+                        <option value="India" id="India">Choose your Country</option>
+                        <option value="Italy" id="Italy"> Italy</option>
+                    </select>
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Languages Known</b></td>
+            <td>
+                <form action="">
+                    <input type="checkbox" id="Hindi" placeholder="" name="Language" placeholder="" value="Hindi">
+                    <label for="Hindi">Hindi</label>
+
+                    <input type="checkbox" id="English" placeholder="" name="Language" placeholder="" value="English">
+                    <label for="English">English</label>
+
+                    <input type="checkbox" id="tamil" placeholder="" name="Language" placeholder="" value="tamil">
+                    <label for="Tamil">Tamil</label>
+                    <input type="checkbox" id="tamil" placeholder="" name="Language" placeholder="" value="tamil">
+                    <label for="Tamil">Korean</label>
+                </form>
+            </td>
+
+        </tr>
+
+        <!-- <tr>
+            <td>
+            <form action="">
+                <input type="checkbox" id="TickBox">
+                <label for="TickBox">Here By i declare all the details are true</label>
+                
+            </form>
+        </td>
+        </tr> -->
+
+
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <form action="">
+                    <input type="checkbox" id="TickBox">
+                    <label for="TickBox">Here By i declare all the details are true</label>
+
+                </form>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>
+
+                <h5>
+                    <style padding: left 500px; ;></style>Log in To <a href="">ethnus</a> Website
+                </h5>
+            </td>
+        </tr>
+    </table>
+
+    <div class="container">
+        <button type="submit">Submit</button>
+    </div>
+
+
+</body>
+
+</html>
